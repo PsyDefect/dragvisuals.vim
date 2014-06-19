@@ -13,11 +13,11 @@ for [Vundle](https://github.com/gmarik/Vundle.vim) add the following to you plug
     
 Add the rest somewhere else
     
-    vmap  <expr>  <LEFT>   DVB_Drag('left')
-    vmap  <expr>  <RIGHT>  DVB_Drag('right')
-    vmap  <expr>  <DOWN>   DVB_Drag('down')
-    vmap  <expr>  <UP>     DVB_Drag('up')
-    vmap  <expr>  D        DVB_Duplicate()
+    vmap  <expr>  <S-LEFT>   DVB_Drag('left')
+    vmap  <expr>  <S-RIGHT>  DVB_Drag('right')
+    vmap  <expr>  <S-DOWN>   DVB_Drag('down')
+    vmap  <expr>  <S-UP>     DVB_Drag('up')
+    vmap  <expr>  D          DVB_Duplicate()
 
 
 This [vim](http://vim.org) plugin was originally created by [Damian Conway](http://en.wikipedia.org/wiki/Damian_Conway).
